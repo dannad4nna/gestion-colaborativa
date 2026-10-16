@@ -18,5 +18,25 @@ public class GestorTareas {
 
     // Danna agrega aquí el método listarTareas() en tu rama
 
-    // Axel agrega aquí el método completarTarea() en tu rama
+    public void completarTarea(int numeroTarea) {
+        if (listaTareas.isEmpty()) {
+            System.out.println("No hay tareas registradas.");
+            return;
+        }
+
+        if (numeroTarea < 1 || numeroTarea > listaTareas.size()) {
+            System.out.println("Ese número de tarea no existe.");
+            return;
+        }
+
+        Tarea tarea = listaTareas.get(numeroTarea - 1);
+
+        if (tarea.getEstado().equalsIgnoreCase("completada")) {
+            System.out.println("Esa tarea ya estaba completada.");
+            return;
+        }
+
+        tarea.marcarComoCompletada();
+        System.out.println("Tarea completada: " + tarea);
+    }
 }
