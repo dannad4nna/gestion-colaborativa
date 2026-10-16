@@ -27,4 +27,9 @@ public class Tarea {
     public String toString() {
         return "Tarea: " + titulo + " - " + descripcion + " | Estado: " + estado;
     }
+
+public void marcarComoCompletada() {
+    this.estado = "completada";
+}
+    
 }
