@@ -33,8 +33,14 @@ public class Main {
                     gestor.listarTareas();
                     break;
                 case 3:
-                    System.out.println("Funcionalidad 'Completar tarea' pendiente de integrar...");
-                    break;
+    System.out.print("Ingresa el número de la tarea que quieres completar: ");
+    try {
+        int numeroTarea = Integer.parseInt(scanner.nextLine());
+        gestor.completarTarea(numeroTarea);
+    } catch (NumberFormatException e) {
+        System.out.println("Ingresa un número válido.");
+    }
+    break;
                 case 4:
                     System.out.println("Saliendo del sistema...");
                     break;
