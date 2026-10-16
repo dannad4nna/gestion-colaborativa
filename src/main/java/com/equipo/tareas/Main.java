@@ -30,7 +30,7 @@ public class Main {
                     ingresarDatosTarea(scanner, gestor);
                     break;
                 case 2:
-                    System.out.println("Funcionalidad 'Listar tareas' pendiente de integrar...");
+                    gestor.listarTareas();
                     break;
                 case 3:
                     System.out.println("Funcionalidad 'Completar tarea' pendiente de integrar...");
