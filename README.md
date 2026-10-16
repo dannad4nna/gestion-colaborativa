@@ -5,7 +5,7 @@ Proyecto colaborativo en Java utilizando Gradle para la gestión de tareas.
 
 ## Integrantes
 * Andrés Manuel Escobedo Ayala
-* 
+* Danna Alejandra Ibarra Lopez
 * 
 
 ## Descripción
