@@ -6,7 +6,7 @@ Proyecto colaborativo en Java utilizando Gradle para la gestión de tareas.
 ## Integrantes
 * Andrés Manuel Escobedo Ayala
 * Danna Alejandra Ibarra Lopez
-* 
+* Axel Ricardo Preciado Franco
 
 ## Descripción
 Proyecto colaborativo desarrollado en Java utilizando Gradle para la gestión de tareas. Este sistema permite registrar, listar y completar tareas como parte de la práctica de gestión de repositorios con GitHub e IntelliJ IDEA.
